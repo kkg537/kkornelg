@@ -1,0 +1,92 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+.háttér
+{
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(kezdõlap.gif);
+            background-size:cover;
+}    
+.háttér2
+{
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(hatter2.gif);
+            background-size:cover;
+}        
+.doboz {
+  display: grid;
+  
+  font size 20px;
+  grid-template-columns: 1fr;
+}
+
+.menüsáv {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.balra {
+  display: flex;
+}
+
+.menüsáv > .balra > div {
+  margin-right: 20px;
+  font-size: 1,5em;
+  font color: white;
+}
+
+
+.menüsáv a {
+  color:white;
+  text-decoration: none;
+  transition: color 0.5a;
+  background-color: #151B54;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.név{
+  background-color: #151B54;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bemutat a:hover {
+  color: white;
+}
+
+.hasab {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  font color: white;
+  
+}
+
+.profilkep {
+    width: 70%;
+    position: left;
+}
+
+.bemutat {
+     padding: px
+}
+
+.bemutat {
+  color: white;
+
+}
+.koremail{
+    text-shadow: 1px 1px;
+}
+
+
